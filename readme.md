@@ -1,9 +1,9 @@
-# 
+# create-react-readme
 
-![npm_version](https://img.shields.io/npm/v/)
-![license](https://img.shields.io/npm/l/)
+![npm_version](https://img.shields.io/npm/v/create-react-readme)
+![license](https://img.shields.io/npm/l/create-react-readme)
 
-
+Generate readme.md from your react library
 
 - **[Installation](#install)**
 - **[Usage](#usage)**
@@ -33,10 +33,6 @@ npm i create-react-readme -g
 ## Developers
 
 ```bash
-yarn create-react-readme ./package.json ./src/components/ ./readme.md -s ./setup_readme.md -u ./usage_readme.md -d ./dev_readme.md
-```
-or
-```bash
 npm run create-react-readme ./package.json ./src/components/ ./readme.md -s ./setup_readme.md -u ./usage_readme.md -d ./dev_readme.md
 ```
 
@@ -53,7 +49,7 @@ You should create a script on your package.json file like so:
 ```
 So you can simply call it that way :
 ```bash
-yarn create-readme
+npm run create-readme
 ```
 
 <a name="api"></a>
