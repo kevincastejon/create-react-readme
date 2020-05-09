@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-react-readme": "node index.js"
   },
-  "author": "",
+  "author": "Kevin Castejon <contact@kevincastejon.fr>",
   "license": "ISC",
   "dependencies": {
     "cli-table": "^0.3.1",
@@ -25,5 +25,6 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2"
-  }
+  },
+  "repository": "https://github.com/kevincastejon/create-react-readme.git"
 }
