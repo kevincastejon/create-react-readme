@@ -11,6 +11,9 @@ Generate readme.md from your react library
 - **[CLI API](#api)**
 
 
+[See on NPM](https://www.npmjs.com/package/create-react-readme)
+
+
 <a name="install"></a>
 ## Install
 
