@@ -58,7 +58,7 @@ npm run create-readme
 <a name="api"></a>
 ## CLI API
 
-Usage: create-react-readme <pkg> <dir> <output> [options]
+Usage: `create-react-readme <pkg> <dir> <output> [options]`
 
 Arguments:
 
@@ -67,7 +67,7 @@ Arguments:
 - **output** : The path and name of the output file
 
 Options:
-
+```
   -h, --help                      output usage information
   -V, --version                   output the version number
   -x, --extensions <items>        Include only these file extensions. Default: js,jsx
@@ -77,3 +77,4 @@ Options:
   -s, --setup <file>		  Markdown file to include into 'Installation' section.
   -u, --usage <file>		  Markdown file to include into 'Usage' section.
   -d, --dev <file>		  Markdown file to include into 'Developers' section.
+```
