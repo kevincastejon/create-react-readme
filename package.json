@@ -1,6 +1,6 @@
 {
   "name": "create-react-readme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate readme.md from your react library",
   "main": "index.js",
   "bin": {
