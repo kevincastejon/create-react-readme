@@ -7,7 +7,6 @@ Generate readme.md from your react library
 
 - **[Installation](#install)**
 - **[Usage](#usage)**
-- **[Developers](#dev)**
 - **[CLI API](#api)**
 
 
@@ -32,8 +31,13 @@ Globally
 npm i create-react-readme -g
 ```
 
-<a name="dev"></a>
-## Developers
+You also can use it with npx without installing
+```
+npx create-react-readme
+```
+
+<a name="usage"></a>
+## Usage
 
 ```bash
 npm run create-react-readme ./package.json ./src/components/ ./readme.md -s ./setup_readme.md -u ./usage_readme.md -d ./dev_readme.md
