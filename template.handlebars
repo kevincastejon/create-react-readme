@@ -7,9 +7,7 @@
 
 -----
 
-{{#if setupFile}}
 - **[Installation](#install)**
-{{/if}}
 {{#if usageFile}}
 - **[Usage](#usage)**
 {{/if}}
@@ -20,12 +18,15 @@
 
 -----
 
-{{#if setupFile}}
 <a name="install"></a>
 ## Installation
 
+{{#if setupFile}}
 {{setupFile}}
-
+{{else}}
+```bash
+npm install {{userPkg.name}}
+```
 {{/if}}
 
 {{#if usageFile}}
